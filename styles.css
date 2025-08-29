@@ -1,0 +1,82 @@
+/* General Reset and Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Header and Navigation */
+.site-header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: #0066cc;
+}
+
+/* Sections */
+.intro {
+  background-color: #e6f2ff;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #004080;
+  border-radius: 8px;
+}
+
+/* Card Layout */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+button {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0066cc;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  background-color: #004080;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
